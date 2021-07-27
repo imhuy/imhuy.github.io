@@ -504,14 +504,14 @@ textarea.form-control, textarea.form-control:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.08)
+  background-color: rgba(47, 48, 66, 1)
 }
 
 .site-title-block {
   position: relative;
   z-index: 1;
   margin: 30px 20px 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .site-title {
@@ -523,13 +523,20 @@ textarea.form-control, textarea.form-control:focus {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
-p.site-description {
+ .left-nav{
+   margin-right: 20px;
+   margin-top: 35px;
+ }
+a.site-description {
   color: #fff;
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 500;
   font-family: Oswald, Helvetica, sans-serif;
-  margin: 10px 0;
+  margin: 20px 0;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsla(0,0%,100%,.1);
 }
 
 /* Social links */
@@ -1870,13 +1877,29 @@ blockquote {
     margin: 0 20px;
     text-align: left;
   }
+  
+
+
+ .footer-text {
+  bottom: 15px;
+  left: 30px;
+  right: 30px;
+  width: auto;
+  color: #f2f2f2;
+  font-family: Lucida Console,Courier,monospace;
+  line-height: 20px;
+  position: absolute;
+  font-size: 1.2em;
+  /* bottom: 0; */
+  width: 100%;
+ }
 
   .site-title-block .site-title {
     display: inline-block;
-    float: left;
+ 
     font-size: 18px;
-    margin: 0;
-    line-height: 50px;
+    margin: 10px;
+    line-height: 40px;
   }
 
   .site-title-block .site-description {
@@ -1952,10 +1975,7 @@ blockquote {
     text-shadow: none;
   }
 
-  p.site-description {
-    color: #888;
-    text-shadow: none;
-  }
+  
 
   .pt-wrapper {
     padding: 0;
